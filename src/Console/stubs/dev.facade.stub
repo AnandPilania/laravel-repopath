@@ -1,0 +1,13 @@
+<?php
+
+namespace {{studly_vendor}}\{{studly_package}};
+
+use AP\Support\Facade as Base;
+
+class {{studly_name}}Facade extends Base
+{
+	protected static getFacadeAccessor()
+	{
+		return '{{lower_name}}';
+	}
+}

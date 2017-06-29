@@ -1,0 +1,6 @@
+<?php
+
+Route::group(['prefix' => '{{lower_name}}', 'namespace' => '{{studly_vendor}}\{{studly_package}}\Http\Controllers'], function(){
+	Route::get('/', ['as' => '{{lower_name}}.index.get', 'uses' => 'Controller@getIndex']);
+	Route::post('/', ['as' => '{{lower_name}}.index.post', 'uses' => 'Controller@postIndex']);
+});

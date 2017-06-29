@@ -1,0 +1,31 @@
+{
+    "name": "anandpilania/repopath",
+    "description": "Composer REPOsitoriesPATH package laravel",
+    "keywords": ["laravel", "anandpilania", "repopath"],
+	"homepage": "https://github.com/anandpilania/laravel-repopath",
+	"support": {
+		"email": "pilaniaanand@gmail.com",
+		"issues": "https://github.com/anandpilania/laravel-repopath/issues/",
+		"wiki": "https://github.com/anandpilania/laravel-repopath/wiki/",
+		"source": "https://github.com/anandpilania/laravel-repopath/archive/master.zip",
+		"docs": "https://github.com/anandpilania/laravel-repopath/"
+	},
+	"version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anand Pilania",
+            "email": "pilaniaanand@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "anandpilania/support": "self.version"
+    },
+	"autoload": {
+		"psr-4": {
+			"AP\\Repopath\\": "src/"
+		}
+	},
+	"suggests": {}
+}

@@ -1,0 +1,8 @@
+<?php
+
+namespace {{studly_vendor}}\{{studly_package}};
+
+use Anutiger\Support\ServiceProvider as Base;
+
+class {{studly_name}}ServiceProvider extends Base
+{}

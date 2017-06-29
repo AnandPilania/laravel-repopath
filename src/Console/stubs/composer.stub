@@ -1,0 +1,31 @@
+{
+    "name": "{{lower_vendor}}/{{lower_name}}",
+    "description": "{{studly_name}} package by {{studly_vendor}} for laravel",
+    "keywords": ["laravel", "{{lower_vendor}}", "{{lower_name}}"],
+	"homepage": "https://github.com",
+	"support": {
+		"email": "pilaniaanand@github.com",
+		"issues": "https://github.com/anandpilania/{{lower_name}}/issues/",
+		"wiki": "https://github.com/anandpilania/{{lower_name}}/wiki/",
+		"source": "https://github.com/anandpilania/{{lower_name}}/archive/master.zip",
+		"docs": "https://github.com/anandpilania/{{lower_name}}/"
+	},
+	"version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "{{studly_vendor}}",
+            "email": "{{lower_vendor}}@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "5.4.*",
+		"anandpilania/laravel-support": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"{{studly_vendor}}\\{{studly_name}}\\": "src/"
+		}
+	}
+}

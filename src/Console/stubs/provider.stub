@@ -1,0 +1,8 @@
+<?php
+
+namespace {{studly_vendor}}\{{studly_package}}\Providers;
+
+use AP\Support\ServiceProvider as Base;
+
+class {{studly_name}}ServiceProvider extends Base
+{}

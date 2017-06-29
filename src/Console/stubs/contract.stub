@@ -1,0 +1,8 @@
+<?php
+
+namespace {{studly_vendor}}\{{studly_package}}\Contracts;
+
+use AP\Support\Contract as Base;
+
+interface {{studly_name}}Contract extends Base
+{}

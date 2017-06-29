@@ -1,0 +1,13 @@
+<?php
+
+namespace {{studly_vendor}}\{{studly_package}}\Models;
+
+use AP\Support\AuthModel;
+
+class {{studly_name}}Model extends AuthModel
+{
+	protected $table = '';
+	protected $fillable = [];
+	protected $hidden = [];
+	protected $casts = [];
+}

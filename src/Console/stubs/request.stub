@@ -1,0 +1,8 @@
+<?php
+
+namespace {{studly_vendor}}\{{studly_package}}\Http\Requests;
+
+use AP\Support\Request;
+
+class {{studly_name}}Request extends Request
+{}
